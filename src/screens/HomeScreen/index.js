@@ -1,3 +1,5 @@
+import PageTitle from '../../components/Link/PageTitle';
+import Head from 'next/head'
 import Footer from '../../components/patterns/Footer'
 import Link from '../../components/Link'
 import { theme } from '../../theme/theme';
@@ -96,6 +98,7 @@ function SideImage() {
 export default function HomeScreen() {
   return (
     <Box>
+      <PageTitle>Home - Alura Cases Campanha</PageTitle>
       <Box
         as="main"
         styleSheet={{

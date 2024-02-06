@@ -1,3 +1,4 @@
+import PageTitle from '../src/components/Link/PageTitle';
 import { useEffect, useState } from 'react';
 import Link from '../src/components/Link';
 
@@ -25,7 +26,7 @@ export default function FAQPage({ faq }) {
     // },  []);
     return (
         <div>
-            <h1>Alura Cases - Páginas de Perguntas</h1>
+            <PageTitle>FAQ - Alura Cases Campanha</PageTitle>
             <Link href="/">
                 Ir para a Home
             </Link>
